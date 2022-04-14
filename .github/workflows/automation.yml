@@ -14,7 +14,7 @@ jobs:
       - name: Bahamut Automation
         uses: JacobLinCool/Bahamut-Automation@v0.6.13
         with:
-          modules: "login,ad_handler,sign,report,guild,report,answer,report,lottery,report,logout,report,telegram"
+          modules: "login,ad_handler,sign,report,guild,report,answer,report,lottery,del_mail,report,logout,report,telegram"
           parameters: ${{ secrets.parameters || '{}' }}
           secrets: ${{ secrets.secrets }}
       - uses: gautamkrishnar/keepalive-workflow@master
